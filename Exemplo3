@@ -6,9 +6,9 @@ public class Exemplo3 {
        
        x = (int)(Math.random()*100);
        if (x < 50) 
-           System.out.println("O valor" + x + " e menor que 50");
+           System.out.println("O valor " + x + " e menor que 50");
        else
-           System.out.println("O valor" + x + " e maior ou igual a 50" );
+           System.out.println("O valor " + x + " e maior ou igual a 50" );
        
     }
     
