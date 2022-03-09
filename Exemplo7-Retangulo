@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+package fatec.poo.model;
 
 /**
  *
@@ -11,22 +7,24 @@
 public class Retangulo {
     private double altura;
     private double base;
-    
-    public static void main(String[] args) {
+   
        
-        public void setAltura(double a){
-            altura = a;
-        }
-        public void setBase(double b){
-            base = b;
-        }
-        public double calcArea() {
-            return(base * altura);
-        }
-        public double calcPerimetro(){
+    public void setAltura(double a){
+          altura = a;
+    }
+    public void setBase(double b){
+          base = b;
+    }
+    public double calcArea() {
+          return(base * altura);
+    }
+     public double calcPerimetro(){
             return(2 * (base + altura));
-        }
+     }
         
     }
     
+    
+
+
 
