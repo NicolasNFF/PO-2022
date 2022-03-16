@@ -1,0 +1,90 @@
+
+**Retangulo.java 
+
+package fatec.poo.model;
+
+/**
+ *
+ * @author Nicolas Ferrari
+ */
+public class Retangulo {
+    private double altura;
+    private double base;
+    private double diagonal;
+    
+    public void setAltura(double a){
+        altura = a;
+    }
+    
+    public double getAltura(){
+        return(altura);
+    }
+    
+    
+    public void setBase(double b){
+        base = b; 
+    }
+
+    public double getBase(){
+        return(base);
+    }
+    
+    public double calDiagonal(){
+        return(Math.sqrt(Math.pow(altura,2)+Math.pow(base,2)));
+    }
+    
+    public double calcArea(){
+        return (altura * base);
+    }
+    
+    public double calcPerimetro(){
+        return(2*(base + altura));
+    }
+    
+}
+
+**Aplic.java
+
+
+package fatec.poo.model;
+
+/**
+ *
+ * @author Nicolas Ferrari
+ */
+public class Retangulo {
+    private double altura;
+    private double base;
+    private double diagonal;
+    
+    public void setAltura(double a){
+        altura = a;
+    }
+    
+    public double getAltura(){
+        return(altura);
+    }
+    
+    
+    public void setBase(double b){
+        base = b; 
+    }
+
+    public double getBase(){
+        return(base);
+    }
+    
+    public double calDiagonal(){
+        return(Math.sqrt(Math.pow(altura,2)+Math.pow(base,2)));
+    }
+    
+    public double calcArea(){
+        return (altura * base);
+    }
+    
+    public double calcPerimetro(){
+        return(2*(base + altura));
+    }
+    
+}
+
