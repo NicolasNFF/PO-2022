@@ -3,7 +3,7 @@ package fatec.poo.model;
 
 /**
  *
- * @author kevin
+ * @author Nicolas
  */
 public class Aluno {
     
