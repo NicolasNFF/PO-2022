@@ -5,7 +5,7 @@ import fatec.poo.model.FuncionarioMensalista;
 
 /**
  *
- * @author Dimas
+ * @author Nicolas
  */
 public class Aplic {
     public static void main(String[] args) {
@@ -65,8 +65,13 @@ public class Aplic {
        //objeto da classe Departamento com 1 ou mais (1..*)
        //objetos da classe FuncionarioHorista, FuncionarioMensalista
        //e FuncionarioComissionado  
+       objDep1.addFuncionario(funcHor);
+       objDep1.addFuncionario(funcMen);
+       objDep2.addFuncionario(funcCom);
        
        
+       objDep1.listarFuncionarios();
+       objDep2.listarFuncionarios();
        
     }    
 }
